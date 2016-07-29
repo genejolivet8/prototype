@@ -1,0 +1,118 @@
+header,
+main,
+aside,
+footer {
+  border: black solid 5px;
+  text-align: center;
+}
+
+header {
+  width: 200%;
+  height: 200px;
+}
+
+main {
+  width: 100%;
+  height: 450px;
+  float: left;
+  
+}
+
+
+footer {
+  width:  100%;
+  height: 400px;
+  clear: both;
+}
+
+a {
+    color: gray;
+}
+.navbar {
+    text-decoration: none;
+}
+
+p {
+    font-size:large;
+}
+.circle{
+  background:black;
+  width:100px;
+  height:100px;
+  border-radius:300px;
+}
+.navbar {
+  background-color: gray;
+  position: absolute;
+  top:-22px;
+  width: 100%;
+}
+.navbar {
+list-style-type:none;/*removes bulletpoints */
+  padding: .001px;
+  
+}
+.navbar a li {
+  display: inline; /*displays list items inline */
+  margin-left: 10px;
+  color:black;
+  font-variant: small-caps;
+}
+.navbar a {
+text-decoration: none;
+  padding: 1px;
+}
+.navbar a:hover {
+ background-color:gray;
+}
+.active {
+  font-weight: bolder ;
+}
+
+img {
+    float: right;
+    height:320px;
+    width: 320px;
+    
+    
+    
+    
+}
+
+p {
+    float: left;
+    width: 800px;
+  
+}
+
+
+.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+
+about {
+  margin-right: 20px;
+}
+
+.boxed {
+  border: 5px solid black ;
+  padding: 5px;
+}
+
+
+.boxed {
+  width:  100%;
+  height: 400px;
+  clear: both;
+  
+}
+
+.boxed {
+    float: left;
+    width: 900px;
+    height: 580px;
+   
+}
+
